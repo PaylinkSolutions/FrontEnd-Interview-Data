@@ -1,0 +1,127 @@
+{
+  "uuid": "619d3d95-9e01-4169-95a3-078e86c79625",
+  "lastMigration": 32,
+  "name": "Paylink interview",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3000,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "65b501eb-42be-4b09-9154-13c47cbbfe16",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "user/:id",
+      "responses": [
+        {
+          "uuid": "2a922e3c-229c-467c-9624-650b0af2189e",
+          "body": "{\r\n    \"id\": 1,\r\n    \"name\": \"John Doe\",\r\n    \"socialMediaHandle\": \"@johndoe\",\r\n    \"profileImgSrc\": \"https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?q=80&w=2585&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\r\n    \"bio\": \"I'm a software engineer who loves to code and build things.\",\r\n    \"location\": \"Grantham, UK\",\r\n    \"website\": \"https://johndoe.com\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Id parameter - 1",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "params",
+              "modifier": "id",
+              "value": "1",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        },
+        {
+          "uuid": "4b0588e6-e8de-4bae-9663-424dd3170327",
+          "body": "{\r\n    \"id\": 2,\r\n    \"name\": \"Jane Smith\",\r\n    \"socialMediaHandle\": \"@janesmith\",\r\n    \"profileImgSrc\": \"https://images.unsplash.com/photo-1483884105135-c06ea81a7a80?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\r\n    \"bio\": \"I'm a graphic designer.\",\r\n    \"location\": \"London, UK\",\r\n    \"website\": \"https://janesmith.com\"\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "Id - parameter 2",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [
+            {
+              "target": "params",
+              "modifier": "id",
+              "value": "2",
+              "invert": false,
+              "operator": "equals"
+            }
+          ],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": false,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "65b501eb-42be-4b09-9154-13c47cbbfe16"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
