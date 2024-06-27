@@ -1,6 +1,6 @@
 # FrontEnd-Interview-Data
 
-## Setup instructions
+## Setup instructions:
 
 1. Run the following command: `npm ci` to install all required packages.
 2. Run the following command to start the mockoon server:
@@ -39,15 +39,16 @@ If you feel uncomfortable using mockoon as a mocked server - please feel free to
 
 ## Brief:
 
+_We have created this brief to help us understand your current level of understanding. If you feel as if you have a portfolio that will demonstrate this better, please feel free to send us a Github link to this repository as a submission piece instead._
+
 - Please create a new Angular (v16 or above) application.
 - Within this application, please setup a user detail route using a userId as a parameter
 - Please create the provided user profile card design, using the JSON data provided.
 - Changing the userId in the parameter of this route, should render a different users information.
-- Using Jest, please add some code coverage for your implementation.
+- Using Jest, please add some code coverage for your implementation, including a unit test for the http methods you have used.
 
 _Please feel free to use any additional third party framework such as Bootrap, Angular Material or Tailwind to support building this design._
 
 ##### Bonus:
 
 - Implement a light mode & dark mode toggle.
-- Add some Cypress tests
