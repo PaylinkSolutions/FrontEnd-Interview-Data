@@ -17,7 +17,7 @@
       "responses": [
         {
           "uuid": "2a922e3c-229c-467c-9624-650b0af2189e",
-          "body": "{\r\n    \"id\": 1,\r\n    \"name\": \"John Doe\",\r\n    \"socialMediaHandle\": \"@johndoe\",\r\n    \"profileImgSrc\": \"https://images.unsplash.com/photo-1529665253569-6d01c0eaf7b6?q=80&w=2585&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\r\n    \"bio\": \"I'm a software engineer who loves to code and build things.\",\r\n    \"location\": \"Grantham, UK\",\r\n    \"website\": \"https://johndoe.com\"\r\n}",
+          "body": "{\n  \"id\": 1,\n  \"name\": \"John Doe\",\n  \"socialMediaHandle\": \"@johndoe\",\n  \"profileImgSrc\": \"https://assets.embarknext.com/assets/d37c2ffb-dcc6-4513-8b13-3356b01d02d0\",\n  \"bio\": \"I'm a software engineer who loves to code and build things.\",\n  \"location\": \"Grantham, UK\",\n  \"website\": \"https://johndoe.com\"\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "Id parameter - 1",
@@ -44,7 +44,7 @@
         },
         {
           "uuid": "4b0588e6-e8de-4bae-9663-424dd3170327",
-          "body": "{\r\n    \"id\": 2,\r\n    \"name\": \"Jane Smith\",\r\n    \"socialMediaHandle\": \"@janesmith\",\r\n    \"profileImgSrc\": \"https://images.unsplash.com/photo-1483884105135-c06ea81a7a80?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D\",\r\n    \"bio\": \"I'm a graphic designer.\",\r\n    \"location\": \"London, UK\",\r\n    \"website\": \"https://janesmith.com\"\r\n}",
+          "body": "{\n  \"id\": 2,\n  \"name\": \"Jane Smith\",\n  \"socialMediaHandle\": \"@janesmith\",\n  \"profileImgSrc\": \"https://assets.embarknext.com/assets/ac6ca7d9-3049-4155-bceb-5ba9b53d70d9\",\n  \"bio\": \"I’m a creative graphic designer with over five years of experience specializing in brand identity, print design, and digital media, known for my attention to detail and innovative approach.\",\n  \"location\": \"London, UK\",\n  \"website\": \"https://janesmith.com\"\n}",
           "latency": 0,
           "statusCode": 200,
           "label": "Id - parameter 2",
